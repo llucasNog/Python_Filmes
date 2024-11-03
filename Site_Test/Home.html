@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Filmes</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Catálogo de Filmes</h1>
+        <div class="input-group">
+            <input type="text" id="nome" placeholder="Nome do Filme">
+            <input type="text" id="ano" placeholder="Ano de Lançamento">
+            <input type="text" id="genero" placeholder="Gênero">
+            <textarea id="descricao" placeholder="Descrição"></textarea>
+            <input type="text" id="imagemUrl" placeholder="URL da Imagem">
+            <button class="button" onclick="adicionarFilme()">Adicionar Filme</button>
+        </div>
+        <div id="catalogo"></div>
+    </div>
+    <script src="Mec.js"></script>
+</body>
+</html>
